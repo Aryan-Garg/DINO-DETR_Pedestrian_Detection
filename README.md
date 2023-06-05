@@ -5,18 +5,18 @@ Pedestrian Detection on Custom Dataset using an Attention Based Transformer Tech
 
 ---
 
-# DINO <img src="figs/dinosaur.png" width="30">
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dino-detr-with-improved-denoising-anchor-1/object-detection-on-coco-minival)](https://paperswithcode.com/sota/object-detection-on-coco-minival?p=dino-detr-with-improved-denoising-anchor-1)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dino-detr-with-improved-denoising-anchor-1/object-detection-on-coco)](https://paperswithcode.com/sota/object-detection-on-coco?p=dino-detr-with-improved-denoising-anchor-1)
+# DINO 
 
-This is a standalone notebook of the paper "[DINO: DETR with Improved DeNoising Anchor Boxes for End-to-End Object Detection](https://arxiv.org/abs/2203.03605)". 
+> This is a standalone notebook of the paper "[DINO: DETR with Improved DeNoising Anchor Boxes for End-to-End Object Detection](https://arxiv.org/abs/2203.03605)".    
 
 
 ## Checkpoints available here:
 We have put our model checkpoints here [[model zoo in Google Drive]](https://drive.google.com/drive/folders/1qD5m1NmK0kjE5hh-G17XUX751WsEG-h_?usp=sharing)[[model zoo in 百度网盘]](https://pan.baidu.com/s/1St5rvfgfPwpnPuf_Oe6DpQ)（提取码"DINO"), where checkpoint{x}_{y}scale.pth denotes the checkpoint of y-scale model trained for x epochs. 
 
 
-## Instructions for setting up everything on standalone:
+## Instructions for setting up everything on your standalone
+
+> P.S. You don't need them if you're using the NB :)   
 
 ## Installation
 
@@ -168,7 +168,7 @@ To **leverage our pre-trained models** for model fine-tuning, we suggest add two
 
 
 # Bibtex
-If you find our work helpful for your research, please consider citing the following BibTeX entry.   
+  
 ```bibtex
 @misc{zhang2022dino,
       title={DINO: DETR with Improved DeNoising Anchor Boxes for End-to-End Object Detection}, 
